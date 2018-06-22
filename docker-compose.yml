@@ -18,3 +18,5 @@ services:
             user: ${DB_USER}
             password: ${DB_PASSWORD}
             migrations: true
+            connectionLimit: 2
+            ssl: true
